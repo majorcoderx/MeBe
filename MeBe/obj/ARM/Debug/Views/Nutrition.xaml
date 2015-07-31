@@ -1,0 +1,187 @@
+﻿<Page
+    x:Class="MeBe.Views.Nutrition"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutNutrition">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border Background="HotPink" Opacity="0.7"/>
+            <TextBlock Text="Chọn thực phẩm" Margin="30,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Green" FontSize="36"
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+            <Image x:ConnectionId='4' HorizontalAlignment="Right" Height="60" Margin="0,-3,30,0" VerticalAlignment="Top" 
+					Source="/Assets/Icons/noti_100.png"                          />
+        </Grid>
+        <Popup Grid.Row="1" Name="InformationFood" Margin="25,40,15,50">
+            <Grid>
+                <Border Background="HotPink" Opacity="0.8"/>
+                <StackPanel Name="ViewInforVegetable" Width="370">
+                    <Grid Margin="5,5,5,5">
+                        <Image Source="{Binding UrlImage}" HorizontalAlignment="Left" Width="150" Height="115"/>
+                        <RadioButton x:ConnectionId='3' Name="ChooseVegetable"                                   VerticalAlignment="Bottom" HorizontalAlignment="Right" Content="Chọn" Foreground="Green" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"  FontSize="24"/>
+                        <TextBlock Text="{Binding Name}" Margin="170,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="32" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Foreground="Green" TextWrapping="Wrap"/>
+                    </Grid>
+                    <ScrollViewer>
+                        <TextBlock Text="{Binding Information}" Margin="5,15,5,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Foreground="White" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="26"/>
+                    </ScrollViewer>
+                </StackPanel>
+            </Grid>
+        </Popup>
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Margin="20,0,10,0">
+                <Grid>
+                    <StackPanel Margin="12,35,0,0">
+                        <Grid Height="60">
+                            <Border Background="DarkOrchid"/>
+                            <Image Source="/Assets/Icons/vuot.png" Opacity="0.6" Height="40" HorizontalAlignment="Right"/>
+                            <TextBlock Text="Rau củ" Foreground="Gold" Margin="80,0,0,0" FontSize="40" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+                        </Grid>
+                        
+                        <Grid x:ConnectionId='1' Name="VegetableLayout"                                                                ManipulationMode="TranslateX"  Background="DarkOrchid" Height="135">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="3"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image x:ConnectionId='2'                        Source="/Assets/PhotoT/T40.jpg"  Margin="3,0,0,0"/>
+                            <Grid Grid.Column="2" Margin="0,2.5,3,2.5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="3"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <Image Source="/Assets/PhotoT/T21.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T10.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <Image Source="/Assets/PhotoT/T49.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T85.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <Image Source="/Assets/PhotoFood/Rau-cu.png" Width="80" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10,0,0"/>
+                </Grid>
+
+                <Grid>
+                    <StackPanel Margin="12,35,0,0">
+                        <Grid Height="60">
+                            <Border Background="DarkOrchid"/>
+                            <Image Source="/Assets/Icons/vuot.png" Opacity="0.6" Height="40" HorizontalAlignment="Right"/>
+                            <TextBlock Text="Hoa quả - sữa" Foreground="Gold" Margin="80,0,0,0" FontSize="40" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+                        </Grid>
+                        <Grid Background="DarkOrchid" Height="135">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="3"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="/Assets/PhotoT/T35.jpg" Margin="3,0,0,0"/>
+                            <Grid Grid.Column="2" Margin="0,2.5,3,2.5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="3"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <Image Source="/Assets/PhotoT/T70.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T90.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <Image Source="/Assets/PhotoT/T87.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T37.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <Image Source="/Assets/PhotoFood/hoa-qua.png" Width="80" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10,0,0"/>
+                </Grid>
+
+                <Grid>
+                    <StackPanel Margin="12,35,0,0">
+                        <Grid Height="60">
+                            <Border Background="DarkOrchid"/>
+                            <TextBlock Text="Thịt trứng" Foreground="Gold" Margin="80,0,0,0" FontSize="40" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+                        </Grid>
+                        <Grid Background="DarkOrchid" Height="135">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="3"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="/Assets/PhotoT/T28.jpg" Margin="3,0,0,0"/>
+                            <Grid Grid.Column="2" Margin="0,2.5,3,2.5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="3"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <Image Source="/Assets/PhotoT/T47.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T10.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <Image Source="/Assets/PhotoT/T59.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T32.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <Image Source="/Assets/PhotoFood/Thit.png" Width="80" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10,0,0"/>
+                </Grid>
+
+                <Grid>
+                    <StackPanel Margin="12,35,0,0">
+                        <Grid Height="60">
+                            <Border Background="DarkOrchid"/>
+                            <TextBlock Text="Hải sản" Foreground="Gold" Margin="80,0,0,0" FontSize="40" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+                        </Grid>
+                        <Grid Background="DarkOrchid" Height="135">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="3"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="/Assets/PhotoT/T66.jpg" Margin="3,0,0,0"/>
+                            <Grid Grid.Column="2" Margin="0,2.5,3,2.5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="3"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel>
+                                    <Image Source="/Assets/PhotoT/T15.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T01.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <Image Source="/Assets/PhotoT/T12.jpg"/>
+                                    <Image Source="/Assets/PhotoT/T41.jpg" Margin="0,3,0,0"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <Image Source="/Assets/PhotoFood/hai-san.png" Width="80" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10,0,0"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="3">
+            <Border Background="Silver" Opacity="0.7"/>
+            <Button Content="Xem gợi ý" HorizontalAlignment="Center" Foreground="HotPink" BorderBrush="HotPink"/>
+        </Grid>
+        
+    </Grid>
+</Page>
+

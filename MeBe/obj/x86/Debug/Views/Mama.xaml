@@ -1,0 +1,69 @@
+﻿<Page
+    x:Class="MeBe.Views.Mama"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutMama">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="360"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+          
+            <TextBlock Text="Sức khỏe của mẹ" Foreground="Green" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" 
+					FontSize="37" Margin="30,0,0,0" VerticalAlignment="Center"/>
+            <Image x:ConnectionId='3' HorizontalAlignment="Right" Height="60" Margin="0,-3,30,0" VerticalAlignment="Top" 
+					Source="/Assets/Icons/noti_100.png"                          />
+            
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="50,40,0,0" Text="Chiều cao : " VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="24"/>
+            <Image Source="/Assets/Icons/input.png" Height="45" Margin="165,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="InputHeightMama" HorizontalAlignment="Left" Foreground="Green" Margin="178,25,0,0" Width="110" BorderThickness="0"
+					InputScope="Number"/>
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="330,40,0,0" Text="Mét" VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNConThuy.TTF#UVN Con Thuy" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="50,100,0,0" Text="Cân nặng : " VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="24"/>
+            <Image Source="/Assets/Icons/input.png" Height="45" Margin="165,85,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="InputWeightMama" HorizontalAlignment="Left" Foreground="Green" Margin="180,90,0,0" Width="110"
+					BorderThickness="0" InputScope="Number"/>
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="330,110,0,0" Text="Kg" VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNConThuy.TTF#UVN Con Thuy" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="50,160,0,0" Text="Tuổi bạn : " VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="24"/>
+            <Image Source="/Assets/Icons/input.png" Height="45" Margin="165,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="InputOldMama" HorizontalAlignment="Left" Foreground="Green" Margin="180,155,0,0" Width="110"
+					BorderThickness="0" InputScope="Number"/>
+            <TextBlock HorizontalAlignment="Left" Foreground="Green" Margin="330,160,0,0" Grid.Row="1" Text="Năm" VerticalAlignment="Top" 
+					FontFamily="/Assets/Fonts/UVNConThuy.TTF#UVN Con Thuy" FontSize="24"/>
+            <Button x:ConnectionId='2' Content="Xem kết quả" HorizontalAlignment="Left" Margin="170,220,0,0"                          
+					Grid.Row="1" VerticalAlignment="Top" BorderBrush="Green" Foreground="Green" BorderThickness="3"/>
+            <Line Grid.Row="1" X1="20" X2="380" Y1="290" Y2="290" Stroke="Silver"/>
+            <TextBlock x:Name="TimeViewMama" Grid.Row="1" Margin="20,295,0,0" Foreground="Silver" FontSize="20"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Image x:ConnectionId='1' HorizontalAlignment="Left" Height="60" Margin="20,0,0,10" VerticalAlignment="Bottom" 
+					                         Width="60" Source="/Assets/Icons/charticon.png"/>
+            <ScrollViewer Margin="25,10,25,70">
+                <TextBlock x:Name="AdviceForMama" Text="Bạn cần nhập các thông số chính xác để chúng tôi có thể đưa ra tư vấn cho bạn"
+						Foreground="Green" FontSize="24" TextWrapping="Wrap"
+						FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+            </ScrollViewer>
+            <TextBlock Text="Số liệu dựa trên tiêu chuẩn tổ chức y tế Thế Giới - WHO" Foreground="HotPink" 
+					FontSize="16" Margin="95,0,35,15" VerticalAlignment="Bottom" TextWrapping="Wrap"/>
+        </Grid>
+    </Grid>
+</Page>
+

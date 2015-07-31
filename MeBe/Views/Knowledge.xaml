@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="MeBe.Views.Knowledge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutKnowledge">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border Background="HotPink" Opacity="0.7"/>
+            <TextBlock x:Name="KnowledgeList" Text="Kiến thức cho mẹ" TextWrapping="Wrap" FontSize="33" Width="220"
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Margin="30,5,0,0" Foreground="Green" 
+					HorizontalAlignment="Left"/>
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,-3,30,0" VerticalAlignment="Top" 
+					Source="/Assets/Icons/noti_100.png" Tapped="NotesIcon_Tapped"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Line VerticalAlignment="Top" X1="25" X2="390" Y1="8" Y2="8" StrokeThickness="2" Stroke="HotPink"/>
+            <ScrollViewer>
+                <ListView x:Name="KnowledgeListView" Margin="0,20,10,0" IsItemClickEnabled="True" ItemClick="KnowledgeItem_Click">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="75"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0" Margin="25,0,0,0">
+                                        <Image HorizontalAlignment="Center" VerticalAlignment="Top" Width="50" Source="/Assets/Icons/Tip.png"/>
+                                        <TextBlock Text="{Binding Week}" FontSize="26" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Foreground="HotPink"/>
+                                    </StackPanel>
+                                    <StackPanel Margin="5,0,0,0" Grid.Column="1">
+                                        <TextBlock Text="{Binding Title}" FontSize="30" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Foreground="Green" TextWrapping="Wrap"/>
+                                        <TextBlock Text="{Binding ExContent}" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" 
+												FontSize="20" Foreground="HotPink" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Grid>
+                                <Line X1="25" X2="400" Y1="0" Y2="0" Stroke="HotPink" StrokeThickness="2"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Border Background="Silver" Opacity="0.7"/>
+            <Image Tapped="ViewLikeKnowledge_Tapped" Source="/Assets/Icons/pink-heart.png" HorizontalAlignment="Left" Margin="60,0,0,0" Height="50"/>
+            <RadioButton x:Name="WeekButton" Checked="WeekButton_Checked" BorderBrush="HotPink" Content="Tuần" Foreground="HotPink" Margin="170,0,0,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" VerticalAlignment="Top" Width="131"/>
+            <RadioButton x:Name="MonthButton" Checked="MonthButton_Checked" BorderBrush="HotPink" Content="Tháng" Foreground="HotPink" Margin="280,0,0,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+
+</Page>

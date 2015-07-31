@@ -1,0 +1,198 @@
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\App.g.i.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\App.g.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MainPage.g.i.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MainPage.g.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Menu.g.i.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Menu.g.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\XamlTypeInfo.g.cs
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\App.xaml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\App.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\XamlSaveStateFile.xml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MainPage.xaml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Menu.xaml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MainPage.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Menu.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\App.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\MainPage.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Menu.xbf
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\MeBe.xr.xml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\MeBe.exe
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\MeBe.pdb
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\resources.pri
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\AppxManifest.xml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\MeBe.build.appxrecipe
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MeBe.exe
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MeBe.pdb
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MeBe.csproj.GenerateResource.Cache
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\priconfig.xml
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\priconfig.xml.intermediate
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\layout.resfiles
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\layout.resfiles.intermediate
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\resources.resfiles
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\resources.resfiles.intermediate
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\pri.resfiles
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\pri.resfiles.intermediate
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\qualifiers.txt
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\qualifiers.txt.intermediate
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\ProjectArchitectures.txt
+d:\users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Data.sqlite
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Baby.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Baby.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foetus.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foetus.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Mama.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Mama.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Testing.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Testing.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Baby.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foetus.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Mama.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Testing.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Baby.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foetus.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Mama.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Testing.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Baby.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Foetus.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Knowledge.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Mama.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Nutrition.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Testing.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\ViewKnowledge.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\ViewNote.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Hospital.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Hospital.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Note.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Note.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Hospital.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Note.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Hospital.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Note.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Hospital.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Note.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.g.i.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.g.cs
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.xaml
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.xbf
+D:\Users\nguye_000\Documents\Visual Studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\LikeKnowledge.xbf
+d:\Users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\bin\x86\Debug\Views\Foods.xbf
+d:\Users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foods.g.i.cs
+d:\Users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foods.g.cs
+d:\Users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foods.xaml
+d:\Users\nguye_000\documents\visual studio 2013\Projects\MeBe\MeBe\obj\x86\Debug\Views\Foods.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Data.sqlite
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\App.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\MainPage.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Baby.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Foetus.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Foods.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Hospital.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Knowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\LikeKnowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Mama.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Menu.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Note.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Nutrition.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\Testing.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\ViewKnowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\Views\ViewNote.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\MeBe.xr.xml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\MeBe.exe
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\MeBe.pdb
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\resources.pri
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\AppxManifest.xml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\bin\x86\Debug\MeBe.build.appxrecipe
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\App.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\App.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MainPage.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MainPage.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Baby.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Baby.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foetus.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foetus.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foods.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foods.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Hospital.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Hospital.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Mama.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Mama.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Menu.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Menu.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Note.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Note.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Testing.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Testing.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.g.i.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\App.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MainPage.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Baby.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foetus.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foods.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Hospital.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Mama.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Menu.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Note.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Testing.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.xaml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\App.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MainPage.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Baby.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foetus.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Foods.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Hospital.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Knowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\LikeKnowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Mama.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Menu.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Note.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Nutrition.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\Testing.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewKnowledge.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\Views\ViewNote.xbf
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\XamlSaveStateFile.xml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MeBe.exe
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MeBe.pdb
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MeBe.csproj.GenerateResource.Cache
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\priconfig.xml
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\priconfig.xml.intermediate
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\layout.resfiles
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\layout.resfiles.intermediate
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\resources.resfiles
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\resources.resfiles.intermediate
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\pri.resfiles
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\pri.resfiles.intermediate
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\qualifiers.txt
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Users\nguye_000\Google Drive\MeBe\MeBe\obj\x86\Debug\ProjectArchitectures.txt

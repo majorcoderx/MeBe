@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="MeBe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="RootLayout">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/Screen800.png"/>
+        </Grid.Background>           
+            <TextBlock x:Name="TextNotification" Margin="60,41,50,480" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                       Text="nếu đã sinh con thì chọn .... " FontSize="28" Foreground="HotPink" TextWrapping="Wrap"/>
+            <TextBlock x:Name="TextStart" Margin="190,205,0,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                       VerticalAlignment="Top" HorizontalAlignment="Left" Width="185" FontSize="26" Foreground="Green"/>
+            <DatePicker x:ConnectionId='1' x:Name="DatePickerApp" Width="170" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Green"                           
+					Margin="200,245,0,0"                                Background="LightPink"/>
+            <TextBlock x:Name="TextHaveTime" Margin="245,295,22,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                       FontSize="20" Foreground="Green" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Image x:ConnectionId='2' x:Name="CheckBoxImage" Width="40" Height="40" Source="/Assets/Icons/uncheck.png" Margin="185,155,0,0" 
+                                            VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBlock Text="Chọn nếu đã sinh" Margin="230,160,0,0" VerticalAlignment="Top" Foreground="Green"
+					FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="23"/>
+        <Grid  HorizontalAlignment="Left" Height="81" Margin="270,330,0,0" VerticalAlignment="Top" Width="85">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Assets/Icons/calendar.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Tuần" Foreground="Green" FontSize="23"
+						VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="1" x:Name="HaveWeek" Foreground="Green" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <Image x:ConnectionId='3' HorizontalAlignment="Right" Height="60" Margin="0,0,40,0" VerticalAlignment="Top"
+				Source="/Assets/Icons/100.png"                         />
+    </Grid>
+</Page>
+

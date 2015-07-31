@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="MeBe.Views.Menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutMenu">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+        </Grid.Background>
+        
+        <Image HorizontalAlignment="Right" Height="65" Margin="0,0,90,0" VerticalAlignment="Top" 
+				Source="/Assets/Icons/noti_100.png" Tapped="NotesIcon_Tapped"/>
+        <Image HorizontalAlignment="Right" Height="65" Margin="0,0,20,0" VerticalAlignment="Top" 
+				Source="/Assets/Icons/home.png" Tapped="BackHome_Tapped"/>
+        <TextBlock x:Name="TitleMenu" Margin="100,65,0,0" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                   Text="Danh mục" Foreground="DarkOrchid" FontSize="56" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Border x:Name="BorderHealthBaby" Tapped="HealthBaby_Tapped" Margin="57,155,0,0"
+                Background="DarkOrchid" Height="44" Width="304" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBlock x:Name="BabyHealthText" Margin="89,155,0,0" Tapped="HealthBaby_Tapped" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                   Text="Sức khỏe của bé" FontSize="32" Foreground="Gold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Border x:Name="BorderHealthMama" Tapped="HealthMama_Tapped" Margin="57,235,0,0" HorizontalAlignment="Left"
+                Background="DarkOrchid" VerticalAlignment="Top" Width="304" Height="44"/>
+        <TextBlock x:Name="MamaHealthText" Margin="90,235,0,0" Tapped="HealthMama_Tapped" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                   Text="Sức khỏe của mẹ" FontSize="32" Foreground="Gold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Border x:Name="BorderKnowledge" Tapped="Knowledge_Tapped" Margin="57,315,0,0"
+                Background="DarkOrchid" Height="44" Width="304" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="KnowledgeText" Margin="90,315,0,0" Tapped="Knowledge_Tapped" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                   Text="Những điều cần biết" FontSize="32" Foreground="Gold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Border Background="DarkOrchid" Tapped="Nutritious_Tapped"
+				HorizontalAlignment="Left" Height="44" Margin="57,395,0,0" VerticalAlignment="Top" Width="304"/>
+        <TextBlock HorizontalAlignment="Left" Margin="90,395,0,0" Tapped="Nutritious_Tapped" 
+				TextWrapping="Wrap" Text="Dinh dưỡng mỗi ngày" VerticalAlignment="Top" Foreground="Gold"
+				FontSize="32" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" />
+
+        <Border x:Name="BorderTestMama" Tapped="TestToMama_Tapped" Margin="57,475,0,0"
+                Background="DarkOrchid" Height="44" Width="304" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="TestForMamaText" Margin="90,475,0,0" Tapped="TestToMama_Tapped" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"
+                   Text="Trắc nghiệm cho mẹ" FontSize="32" Foreground="Gold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Border x:Name="BorderHospital" Tapped="Hospital_Tapped" Margin="57,555,0,0"
+                Background="DarkOrchid" Height="44" Width="304" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="HospitalText" Margin="90,555,0,0" Tapped="Hospital_Tapped" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" 
+                   Text="Tìm cơ sở y tế" FontSize="32" Foreground="Gold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,143,0,0" Tapped="HealthBaby_Tapped" 
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/baby.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,223,0,0" Tapped="HealthMama_Tapped"
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/mama.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,303,0,0" Tapped="Knowledge_Tapped"
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/knowledge.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,383,0,0" Tapped="Nutritious_Tapped"
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/dinhduong.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,463,0,0" Tapped="TestToMama_Tapped"
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/tracnghiem.png"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="25,543,0,0" Tapped="Hospital_Tapped"
+				VerticalAlignment="Top" Width="66" Source="/Assets/Icons/yte.png"/>
+    </Grid>
+</Page>

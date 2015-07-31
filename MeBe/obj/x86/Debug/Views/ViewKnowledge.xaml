@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="MeBe.Views.ViewKnowledge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutViewKnowLedge">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Border Background="HotPink" Opacity="0.7" />
+            <TextBlock x:Name="TitleContentKnowledge" TextWrapping="Wrap" FontSize="26" Width="280"
+					   FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" Height="60" Margin="20,0,0,0" Foreground="Green" HorizontalAlignment="Left"/>
+            <Image x:ConnectionId='4' HorizontalAlignment="Right" Height="60" Margin="0,-3,30,0" VerticalAlignment="Top" 
+					Source="/Assets/Icons/noti_100.png"                          />
+            
+        </Grid>
+        <Image Source="/Assets/Images/Hoa.png" Grid.Row="1" Margin="30,0,10,0" />
+        <ScrollViewer Grid.Row="2">
+            <TextBlock Margin="30,0,10,0" x:Name="TextContentKnowledge" TextWrapping="Wrap" 
+					Foreground="Green" FontSize="24" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu"/>
+        </ScrollViewer>
+        <Grid Grid.Row="3">
+            <Border Background="Silver" Opacity="0.7"/>
+            <Image x:ConnectionId='1' Source="/Assets/Icons/ppink.png"                                   Margin="25,0,0,5" HorizontalAlignment="Left" Height="45"/>
+            <TextBlock x:Name="CountPageKnowledge" Foreground="HotPink" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="25" Margin="120,0,0,0"/>
+            <Image x:ConnectionId='2' Name="LikeKnowImage" Source="/Assets/Icons/pink-heart.png" Height="45" HorizontalAlignment="Right" Margin="0,0,120,0"                               />
+            <Image x:ConnectionId='3' Source="/Assets/Icons/rpink.png"                                   Margin="0,0,25,5" HorizontalAlignment="Right" Height="45"/>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,39 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeBe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="MeBe.Views.Hospital"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush ImageSource="/Assets/Images/480-800.png"/>
+    </Page.Background>
+    
+
+    <Grid x:Name="LayoutHealth">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Maps:MapControl Name="MyMap" Margin="15,-60,0,0" ZoomLevel="12" MapServiceToken="zJFCB7mtFPsAZHbjyK41lQ" />
+            <TextBlock Name="DistanceText" Foreground="HotPink" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="20" Margin="25,0,0,0" VerticalAlignment="Top"/>
+            <TextBlock Name="TimeDriveText" Foreground="HotPink" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" FontSize="20" Margin="25,20,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Grid.Row="0">
+            <Border Background="HotPink" Opacity="0.7"/>
+            <RadioButton Name="HospitalChoose" Content="Bệnh viện" Checked="ChooseHospital_Checked" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" HorizontalAlignment="Left" Margin="30,0,0,0" FontSize="23"/>
+            <RadioButton Name="VaccinationChoose" Content="Tiêm chủng" Checked="ChooseVaccination_Checked" FontFamily="/Assets/Fonts/UVNMuaThu.TTF#UVN Mua Thu" HorizontalAlignment="Left" Margin="170,0,0,0" FontSize="23" />
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,-3,30,0" VerticalAlignment="Top" 
+				Source="/Assets/Icons/noti_100.png" Tapped="NotesIcon_Tapped"/>
+        </Grid>
+        <Grid Grid.Row="1" Height="60" VerticalAlignment="Bottom">
+            <Border Background="Silver" Opacity="0.7"/>
+            <Image Tapped="FindHospital_Tapped" Source="/Assets/AppBar/Find.png" HorizontalAlignment="Left" Height="45" Margin="100,0,0,0"/>
+            <Image Tapped="MyLocation_Tapped" Source="/Assets/AppBar/location.png" HorizontalAlignment="Center" Height="45"/>
+            <Image Tapped="NextHospital_Tapped" Source="/Assets/AppBar/Next.png" HorizontalAlignment="Right" Margin="0,0,100,0" Height="45"/>
+        </Grid>
+    </Grid>
+</Page>
